@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dubbing Mission 2026</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0b0b0f;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+      padding: 60px 24px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .title h1 {
+      font-size: 3rem;
+      letter-spacing: 4px;
+      margin-bottom: 12px;
+    }
+
+    .title p {
+      opacity: 0.7;
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+
+    .badge-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+    }
+
+    .badge-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.25s ease;
+    }
+
+    .badge-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .badge-card img {
+      width: 100%;
+      max-width: 240px;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      border-radius: 50%;
+      filter:
+        drop-shadow(0 0 10px rgba(255,255,255,0.08))
+        drop-shadow(0 0 20px rgba(255,255,255,0.05));
+    }
+
+    .badge-label {
+      margin-top: 18px;
+      text-align: center;
+    }
+
+    .badge-label h2 {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .badge-label p {
+      font-size: 0.9rem;
+      opacity: 0.7;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      margin-top: 80px;
+      text-align: center;
+      opacity: 0.4;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 700px) {
+      .title h1 {
+        font-size: 2rem;
+      }
+
+      .badge-grid {
+        gap: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="title">
+      <h1>DUBBING MISSION 2026</h1>
+      <p>2000 CLIPS CHALLENGE</p>
+    </div>
+
+    <div class="badge-grid">
+
+      <!-- 50 -->
+      <div class="badge-card">
+        <img src="badges/50.png" alt="50 clips badge">
+        <div class="badge-label">
+          <h2>50 — INITIALIZATION</h2>
+          <p>TIER 1 / 7</p>
+        </div>
+      </div>
+
+      <!-- 100 -->
+      <div class="badge-card">
+        <img src="badges/100.png" alt="100 clips badge">
+        <div class="badge-label">
+          <h2>100 — SIGNAL LOCK</h2>
+          <p>TIER 2 / 7</p>
+        </div>
+      </div>
+
+      <!-- 250 -->
+      <div class="badge-card">
+        <img src="badges/250.png" alt="250 clips badge">
+        <div class="badge-label">
+          <h2>250 — ORBITAL STABILITY</h2>
+          <p>TIER 3 / 7</p>
+        </div>
+      </div>
+
+      <!-- 500 -->
+      <div class="badge-card">
+        <img src="badges/500.png" alt="500 clips badge">
+        <div class="badge-label">
+          <h2>500 — DEEP TRANSMISSION</h2>
+          <p>TIER 4 / 7</p>
+        </div>
+      </div>
+
+      <!-- 1000 -->
+      <div class="badge-card">
+        <img src="badges/1000.png" alt="1000 clips badge">
+        <div class="badge-label">
+          <h2>1000 — LONG-RANGE CONTACT</h2>
+          <p>TIER 5 / 7</p>
+        </div>
+      </div>
+
+      <!-- 1500 -->
+      <div class="badge-card">
+        <img src="badges/1500.png" alt="1500 clips badge">
+        <div class="badge-label">
+          <h2>1500 — INTERSTELLAR RELAY</h2>
+          <p>TIER 6 / 7</p>
+        </div>
+      </div>
+
+      <!-- 2000 -->
+      <div class="badge-card">
+        <img src="badges/2000.png" alt="2000 clips badge">
+        <div class="badge-label">
+          <h2>2000 — THE SYSTEM HAS AWAKENED</h2>
+          <p>TIER 7 / 7</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      SIGNAL STATUS: ACTIVE
+    </footer>
+
+  </div>
+
+</body>
+</html>
