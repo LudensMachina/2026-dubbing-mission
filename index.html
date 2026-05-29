@@ -106,6 +106,17 @@
     .unlocked {
       background: #111111;
       color: white;
+      box-shadow:
+        0 0 10px rgba(0,0,0,0.15),
+        0 0 20px rgba(0,255,120,0.15);
+    }
+
+    .badge-card.unlocked img {
+      transform: scale(1.03);
+
+      filter:
+        drop-shadow(0 8px 20px rgba(0,0,0,0.08))
+        drop-shadow(0 0 18px rgba(0,255,120,0.25));
     }
 
     footer {
@@ -164,15 +175,15 @@
     <div class="badge-grid">
 
       <!-- 50 -->
-      <div class="badge-card">
+      <div class="badge-card unlocked">
         <img src="badges/50.jpg" alt="50 clips badge">
 
         <div class="badge-label">
           <h2>50 — INITIALIZATION</h2>
           <p>TIER 1 / 7</p>
 
-          <div class="unlock locked">
-            LOCKED
+          <div class="unlock unlocked">
+            UNLOCKED
           </div>
         </div>
       </div>
